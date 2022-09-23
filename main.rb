@@ -1,6 +1,6 @@
 require_relative "player"
 
-def init()
+def run()
     players = [];
     50.times {
         |i|
@@ -14,4 +14,4 @@ def init()
     }
 end
 
-init()
+run()
