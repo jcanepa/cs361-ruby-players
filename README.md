@@ -1,5 +1,5 @@
 # Players, written in Ruby for OSU-Cascades
-A simple program to demonstrate basic OOP in Ruby that creates a collection of 50 players and displays their name & scores.
+A simple program to demonstrate basic OOP in Ruby. Creates a collection of players and displays each of their stats.
 
 
 ## Assignment Requirements:
