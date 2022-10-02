@@ -2,14 +2,13 @@ require_relative "player"
 
 def run()
     players = [];
-    50.times {
-        |i|
+    50.times do |i|
         index_plus_one = i + 1
         random_score = rand(10...300)
         players << Player.new(
                             "Player #{index_plus_one}",
                             random_score)
-    }
+    end
 
     players.each {
         |player|
